@@ -34,12 +34,8 @@ function NavbarDemo({ className }: { className?: string }) {
         <Link href="/about">
         <MenuItem setActive={setActive} active={active} item="about me">
           <div className="  flex flex-col space-y-4 text-sm">
-            <ProductItem
-              title="About Me"
-              href="/about"
-              src=""
-              description="Learn more about me"
-            />
+          <HoveredLink href="/experiences">my experiences</HoveredLink>
+          <HoveredLink href="/projects">my projects</HoveredLink>
           </div>
         </MenuItem>
         </Link>
