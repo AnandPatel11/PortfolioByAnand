@@ -16,7 +16,7 @@ export default function Home() {
         <div className="space-y-3">
           <H1 className="text-center sm:text-start">Hi, I&apos;m Anand 👋</H1>
           <p className="text-center sm:text-start">
-            Welcome to my portfolio.Here, I share my journey in Computer Science
+            Welcome to my portfolio. Here, I share my journey in Computer Science
             at NJIT, minoring in Mobile and Web Development. You will find a mix
             of school projects and tech experiments.
           </p>
