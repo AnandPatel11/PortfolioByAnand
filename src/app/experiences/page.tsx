@@ -2,16 +2,17 @@ import React from "react";
 import { H1 } from "@/components/ui/H1";
 import Image from "next/image";
 import me from "@/assets/me.jpg";
-import markhamLogo from "@/assets/markham-logo.jpg"; // Replace with actual path
-import sayapAfricaLogo from "@/assets/sayap-africa-logo.jpg"; // Replace with actual path
-import njitLogo from "@/assets/njit-logo.jpg"; // Replace with actual path
-import redFeatherLogo from "@/assets/red-feather-logo.jpg"; // Replace with actual path
+import markhamLogo from "@/assets/markhamLogo.png"; // Replace with actual path
+import sayapAfricaLogo from "@/assets/sayapAfricaLogo.jpg"; // Replace with actual path
+import admissionsLogo from "@/assets/admissionsLogo.jpg"; // Replace with actual path
+import peerMentorLogo from "@/assets/peerMentorLogo.jpg"; 
+import redFeatherLogo from "@/assets/rfsLogo.jpg"; // Replace with actual path
 
 
 
 const experiences = [
   {
-    image: me,
+    image: markhamLogo,
     title: "API Automation AI-integrated Intern",
     period: "Jan 2024 – Present",
     company: "Markham Group",
@@ -19,7 +20,7 @@ const experiences = [
       "Collaborated in QuickBase development, integrated external systems, and engineered AI solutions.",
   },
   {
-    image: me,
+    image: sayapAfricaLogo,
     title: "Website Developer Intern",
     period: "Jul 2023 – Nov 2023",
     company: "Sayap Africa",
@@ -27,7 +28,7 @@ const experiences = [
       "Revamped WordPress website, boosted user engagement, and contributed to strategic content updates.",
   },
   {
-    image: me,
+    image: peerMentorLogo,
     title: "Peer Mentor",
     period: "Sep 2022 – Present",
     company: "NJIT Learning Communities",
@@ -35,7 +36,7 @@ const experiences = [
       "Utilized my expertise to mentor new NJIT students, fostering their academic and social development.",
   },
   {
-    image: me,
+    image: admissionsLogo,
     title: "Vice President of the Student Ambassador",
     period: "Aug 2021 – Dec 2023",
     company: "NJIT Office of Admissions",
@@ -43,7 +44,7 @@ const experiences = [
       "Spearheaded initiatives that contributed to a significant rise in freshman enrollment.",
   },
   {
-    image: me,
+    image: redFeatherLogo,
     title: "Software Developer Intern",
     period: "Jul 2022 – Aug 2022",
     company: "Red Feather Software",

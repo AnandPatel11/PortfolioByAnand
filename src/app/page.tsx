@@ -3,7 +3,7 @@ import Image from "next/image";
 import { H1 } from "@/components/ui/H1";
 import { H2 } from "@/components/ui/H2";
 import me from "@/assets/me.jpg";
-import {Bot} from "lucide-react";
+import { Bot } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Anand Patel - My Smart Portfolio",
@@ -16,9 +16,9 @@ export default function Home() {
         <div className="space-y-3">
           <H1 className="text-center sm:text-start">Hi, I&apos;m Anand 👋</H1>
           <p className="text-center sm:text-start">
-            I&apos;m a software engineer and a web developer. I love to build
-            things that are useful and fun. I&apos;m passionate about learning
-            new things and sharing my knowledge with others.
+            Welcome to my portfolio.Here, I share my journey in Computer Science
+            at NJIT, minoring in Mobile and Web Development. You will find a mix
+            of school projects and tech experiments.
           </p>
         </div>
         <div className="flex justify-center">
@@ -32,14 +32,16 @@ export default function Home() {
         </div>
       </section>
       <section className="space-y-3 text-center">
-        <H2>Ask the chatbot anything about me</H2>
+        <H2>Coming Soon... Ask the chatbot anything about me</H2>
         <p>
-          Click the little <Bot className="inline pb-1" /> icon in the top bar
-          to activate the AI chatbot. You can ask it anything about me and it will
-          find the relavent info on this website. The bot can even provide links to pages 
-          you&apos;re looking for.
+          <p className="italic">
+            Click the little <Bot className="inline pb-1" /> icon in the top bar
+            to activate the AI chatbot. You can ask it anything about me and it
+            will find the relavent info on this website. The bot can even
+            provide links to pages you&apos;re looking for.
+          </p>
         </p>
-        </section>
+      </section>
     </section>
   );
 }
